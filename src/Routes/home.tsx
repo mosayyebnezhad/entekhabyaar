@@ -1,14 +1,14 @@
 
 import { More } from "@/Components/more"
 import Nav from "@/Components/nav"
-import WebApp from "@twa-dev/sdk"
-import { Divide } from "iconoir-react"
+// import WebApp from "@twa-dev/sdk"
+
 
 
 
 
 const Home = () => {
-    let theme = WebApp.themeParams
+
 
 
 
