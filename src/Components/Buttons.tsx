@@ -34,9 +34,11 @@ export const Button = (prop: IButton) => {
 
             {text
                 &&
-                < p style={{
-                    color: border != "none" ? border : "#C7CEFF"
-                }}>{text}</p>
+                < p
+                    className="max-w-26 truncate"
+                    style={{
+                        color: border != "none" ? border : "#C7CEFF"
+                    }}>{text}</p>
             }
 
 

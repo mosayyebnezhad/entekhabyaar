@@ -1,8 +1,13 @@
 import { ProfileCircle } from "iconoir-react"
 import { Button } from "./Buttons"
 import { More } from "./more"
+import WebApp from "@twa-dev/sdk"
 
 const Nav = () => {
+    const name = WebApp.initDataUnsafe
+
+
+
     return (
         <nav className="w-5/6 mx-auto my-4 flex justify-between items-center">
             <div className="flex items-center gap-2">
@@ -15,7 +20,10 @@ const Nav = () => {
 
                     <More />
                 }
-                <Button Icon={ProfileCircle} text="mohammad" theme="light" />
+                <p>
+                    
+                </p>
+                <Button Icon={ProfileCircle} text={`${name.user?.first_name}`} theme="light" />
             </div>
         </nav>
     )
