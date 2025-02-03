@@ -1,4 +1,4 @@
-import { CheckCircleSolid, Iconoir, Search, XmarkCircle, XmarkCircleSolid } from "iconoir-react"
+import { CheckCircleSolid, Iconoir, XmarkCircleSolid } from "iconoir-react"
 
 interface IButton {
     text?: string,
@@ -22,7 +22,7 @@ export const Button = (prop: IButton) => {
         theme == "danger" ? XmarkCircleSolid : CheckCircleSolid : Icon
 
     return (
-        <button  className="h-[40px] flex gap-3 px-4 items-center rounded-xl cursor-pointer"
+        <button className="h-[40px] flex gap-3 px-4 items-center rounded-xl cursor-pointer"
 
             style={{
                 background: themebg,

@@ -1,4 +1,4 @@
-import { ProfileCircle, Search } from "iconoir-react"
+import { ProfileCircle } from "iconoir-react"
 import { Button } from "./Buttons"
 import { More } from "./more"
 
